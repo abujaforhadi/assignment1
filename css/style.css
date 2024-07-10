@@ -258,16 +258,54 @@ iframe {
     height: 313px;
     border-radius: 16px;
     background-image: url("../assets//Frame 8 (1).png");
+    background-size: cover;
+    padding-top: 64px;
+
 }
 
-.newButton {}
+
 
 .input {
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
-
-    background: rgb(255, 255, 255);
     width: 548px;
     height: 57px;
+    background: rgb(255, 255, 255);
+    padding: 16px;
+
+}
+
+.sub {
+    border-radius: 8px;
+    width: 120px;
+    height: 57px;
+    background: rgb(255, 255, 255);
+}
+
+h6 {
+    color: rgb(255, 255, 255);
+    font-family: "";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono";
+    font-size: 32px;
+}
+
+.bottomp {
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
 }
